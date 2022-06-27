@@ -1,0 +1,214 @@
+/*  Add your styling here */
+
+
+ * {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Times New Roman', Times, serif;
+  background: url(../img/hom.jpg) no-repeat center center/cover;
+}
+/* .hero {
+  background: url(./za-class-2/advocate-maroga/img/hom.jpg) no-repeat center center/cover;
+  width: 100%;
+  height: 100vh;
+  color: #ddd;
+} */
+
+/* styling Navbar*/
+.hero .navbar {
+  overflow: hidden;
+  background-color: #d2691e;
+  /* background-color: transparent; */
+  position: relative;
+}
+
+.top {
+  display: flex;
+  flex-flow: column;
+  align-items: flex-end;
+  margin-right: 5px;
+  justify-content: space-between;
+  
+}
+
+.navbar #nav {
+  display: none;
+}
+
+.navbar a {
+  color: #ddd;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+.navbar a.icon {
+  background: #000000;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+  size: 80px;
+}
+
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.active {
+  width: 100px;
+}
+
+.top {
+  display: flex;
+  flex-shrink: 3;
+  justify-content: center;
+  color: #ddd;
+}
+
+
+/* Btn styling check utilities on ./za-class-2/advocate-maroga/utilities.css */
+
+/* .hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.6);
+
+}
+
+.hero * {
+  z-index: 10;
+} */
+
+/* Welcome Section */
+.content {
+  /* display: flex; */
+  /* align-items: flex-start; */
+  justify-content: space-around;
+  text-align: left;
+  align-content: left;
+  height: 100%;
+  
+  /* padding: 0 80px; */
+  /* margin: 50px; */
+}
+.content h1 {
+  font-size: 34px;
+  /* max-width: 600px; */
+  margin: 20px 0 30px;
+  color: #ddd;
+ }
+.content p {
+ font-size: 23px;
+ /* max-width: 600px; */
+ margin: 20px 0 30px;
+ color: #ddd;
+}
+/* Section Buy */
+#cakes .big-image img {
+  width: 20vh;
+  height: 20vh;
+}
+
+#cakes .big-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%
+}
+
+.buy .grid-flex img {
+  width: 20vh;
+  height: 20vh;
+}
+
+#cakes .buy {
+  display: grid;
+  grid-template-areas: 
+  "item1 item1"
+  "item2 item4"
+  ;
+  grid-gap: 20px;
+}
+
+.item1 {
+  grid: item1;
+}
+
+.item2 {
+  grid: item2;
+}
+.item3 {
+  grid: item3;
+}
+
+.item5 {
+  grid: item4;
+}
+
+.item5 {
+  grid: item4;
+}
+
+/* Footer */
+.footer #foot {
+  display: none;
+}
+
+.footer a {
+  color: #ddd;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+.footer a.icon {
+  background: #000000;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.footer a:hover {
+  background-color: #ddd;
+  color: #000000;
+}
+
+.active {
+  width: 100px;
+}
+
+/* Additional Features */
+/* Alert Messages */
+.alert {
+  padding: 20px;
+  background-color: #f44336;
+  color: white;
+}
+
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.closebtn:hover {
+  color: black;
+}

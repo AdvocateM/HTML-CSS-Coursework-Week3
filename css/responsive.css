@@ -1,0 +1,146 @@
+:root{
+  --primary: #d2691e;
+  --primary2: Orange;
+  --secondary: #000000;
+  --black: var(--secondary);
+  --light: #ddd;
+  --main-clr: #fff
+
+}
+@media (min-width: 540px){  
+    .navbar a.icon:not-first-child{
+      display: none;
+      }
+  
+     .top{
+        text-align: right;
+        font-size: 40px;
+        color: var(--black);
+      }
+
+      .navbar2 {
+        display: none;
+      } 
+      #cakes .big-image img {
+        display: block;
+       }
+     
+      .big-cake{
+        display: none
+      }
+      .footer2{
+        display: none;
+      }
+    
+  }
+  
+  
+  @media (min-width: 900px){
+    .navbar a.icon {
+      display: none;
+    }
+
+    .active {
+      width: 50px
+    }
+
+  
+    /* Navbar Styling */
+    .navbar2 {
+      display: block;
+      list-style: none;
+      margin: 10px;
+      padding: 0;
+      background: var(--primary);
+      border-radius: 5px;
+      overflow: auto;
+    }
+
+    .navbar2 li {
+      float: right;
+    }
+
+    .navbar2 li a {
+      display: block;
+      color: var(--light);
+      text-decoration: none;
+      padding: 15px 20px;
+    }
+
+    .navbar2 li a:hover {
+      background-color: var(--primary2);
+      color: var(--light);
+    }
+
+    .top {
+      font-size: 40px;
+    }
+
+  
+    .content{
+      letter-spacing: 1.8;
+     font-size: 1.2rem;
+    }
+  
+    .content h1{
+      font-size: 45px;
+      margin: 40px 0 60px;
+    }
+
+    .content p {
+      font-size: 34;
+      margin: 40px 0 60px ;
+    }
+
+    #cakes .big-image img {
+     display: none;
+    }
+    
+    .big-cake {
+      display: flex;
+      width: 60vh;
+      height: 60vh;
+    }
+    .intro {
+      display: flex;
+    }
+
+    .buy .grid-flex img {
+      width: 50vh;
+      height: 50vh;
+    }
+
+    #cakes .buy {
+      grid-gap: 10px;
+    }
+
+    .footer .icon2{
+      display: none;
+    }
+    .footer2 {
+      list-style: none;
+      margin: 0;
+      padding: 14px 16px;
+      background: var(--primary);
+      border-radius: 5px;
+      overflow: auto;
+    }
+
+    .footer2 li {
+      float: left;
+    }
+
+    .footer2 li a {
+      display: block;
+      color: var(--light);
+      text-decoration: none;
+      padding: 15px 20px;
+    }
+
+    .footer2 li a:hover {
+      background-color: var(--primary2);
+      color: var(--light);
+    }
+
+    
+  }

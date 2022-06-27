@@ -2,15 +2,127 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Responsive Cake webpage</title>
-    <!-- Add a link to your css file here -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Za-class-2/Advocate-Maroga</title>
+  <!-- Add a link to your css file here -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/responsive.css">
+  <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
 </head>
 
 <body>
-    <!-- Add your markup here -->
+  <!-- Add your markup here -->
+  <header class="hero">
+    <!-- Alert Message -->
+    <div class="alert">
+      <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+      <strong>Reminder!</strong> The best result use 540px screen and 900px screen size
+    </div>
+    <!-- End -->
+
+
+    <div class="container">
+      <!-- Mobile Navbar -->
+      <div class="navbar">
+        <img src="./img/logo.jpg" alt="" class="active">
+        <p class="top">The Best Cakes in town delivered to your door</p>
+        <div id="nav">
+          <a href="#intro">Home</a>
+          <a href="#">Buy</a>
+          <a href="#">Shipping</a>
+          <a href="#">Contact Us</a>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+      <!-- End -->
+
+
+      <!-- Desktop Navbar -->
+      <ul class="navbar2">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+  </header>
+  <main>
+    <section class="intro">
+      <div class="big-cake">
+        <img src="./img/case/case.jpg" alt="">
+      </div>
+      <div class="content">
+        <h1>Welcome</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad provident ipsa dolorem sint obcaecati ea nihil
+          exercitationem cumque dolore eum!
+        </p>
+        <!-- <a href="#buy" class="btn"><i class="fas fa-gift x2"></i> BUY</a> -->
+      </div>
+    </section>
+
+
+    <!-- Cakes images -->
+    <section id="cakes">
+      <div class="big-image">
+        <img src="./img/case/case.jpg" alt="">
+      </div>
+      <div class="buy">
+
+
+        <div class="grid-flex item2">
+          <img src="./img/case/case1.jpg" alt="">
+        </div>
+
+        <div class="grid-flex item3">
+          <img src="./img/case/case2.jpg" alt="">
+        </div>
+
+        <div class="grid-flex item4">
+          <img src="./img/case/case3.jpg" alt="">
+        </div>
+
+        <div class="grid-flex item5">
+          <img src="./img/case/case4.jpg" alt="">
+        </div>
+      </div>
+    </section>
+
+  </main>
+  <footer>
+    <!-- Mobile Footer -->
+    <div class="container">
+      <div class="footer">
+        <div id="foot">
+          <a href="#">Home</a>
+          <a href="#">Buy</a>
+          <a href="#">Shipping</a>
+          <a href="#">Contact Us</a>
+        </div>
+        <a href="javascript:void(0);" class="icon2" onclick="x()">
+          <i class="fa fa-bars fa-3x"></i>
+        </a>
+      </div>
+      <!-- End -->
+
+
+      <!-- Desktop Footer -->
+      <ul class="footer2">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+  </footer>
 </body>
+<script src="./js/index.js">
+</script>
 
 </html>
