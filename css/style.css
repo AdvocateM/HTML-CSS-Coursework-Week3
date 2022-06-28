@@ -1,14 +1,13 @@
 /*  Add your styling here */
 
-
- * {
+* {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
 }
 
 body {
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
   background: url(../img/hom.jpg) no-repeat center center/cover;
 }
 /* .hero {
@@ -32,7 +31,6 @@ body {
   align-items: flex-end;
   margin-right: 5px;
   justify-content: space-between;
-  
 }
 
 .navbar #nav {
@@ -67,11 +65,11 @@ body {
 
 .top {
   display: flex;
-  flex-shrink: 3;
+  /* flex-shrink: 3; */
+  word-wrap: break-word;
   justify-content: center;
   color: #ddd;
 }
-
 
 /* Btn styling check utilities on ./za-class-2/advocate-maroga/utilities.css */
 
@@ -98,7 +96,7 @@ body {
   text-align: left;
   align-content: left;
   height: 100%;
-  
+
   /* padding: 0 80px; */
   /* margin: 50px; */
 }
@@ -107,37 +105,41 @@ body {
   /* max-width: 600px; */
   margin: 20px 0 30px;
   color: #ddd;
- }
-.content p {
- font-size: 23px;
- /* max-width: 600px; */
- margin: 20px 0 30px;
- color: #ddd;
 }
+.content p {
+  font-size: 23px;
+  /* max-width: 600px; */
+  margin: 20px 0 30px;
+  color: #ddd;
+}
+
+.content .second{
+  display: none;
+}
+
 /* Section Buy */
 #cakes .big-image img {
-  width: 20vh;
-  height: 20vh;
+  width: 100%;
+  height: auto;
 }
 
 #cakes .big-image {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%
+  width: 50%;
 }
 
 .buy .grid-flex img {
-  width: 20vh;
-  height: 20vh;
+  width: 100%;
+  height: auto;
 }
 
 #cakes .buy {
   display: grid;
-  grid-template-areas: 
-  "item1 item1"
-  "item2 item4"
-  ;
+  grid-template-areas:
+    "item1 item1"
+    "item2 item4";
   grid-gap: 20px;
 }
 
@@ -188,6 +190,10 @@ body {
 
 .active {
   width: 100px;
+}
+
+.footer2 {
+  display: none;
 }
 
 /* Additional Features */
